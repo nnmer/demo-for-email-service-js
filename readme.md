@@ -10,7 +10,8 @@ Add a config.json file in rood directory with mailing credentials:
   "mailgunApikey":  "",
   "mailgunDomain":  "",
   "mandrillApikey": "",
-  "sendgridApikey": ""
+  "sendgridApikey": "",
+  "testEmailSendTo":""
 }
 ```
 

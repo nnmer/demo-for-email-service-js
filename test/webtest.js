@@ -2,6 +2,7 @@ var assert  = require('assert');
 var app     = require('../server/app');
 var http    = require('http');
 var Browser = require('zombie');
+var configMailer = require('../config.json');
 
 describe('Sending page test',function() {
 
@@ -27,7 +28,7 @@ describe('Sending page test',function() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                emailTo:    'anton.v.romanov@gmail.com',
+                emailTo:    configMailer.testEmailSendTo,
                 emailFrom:  'abc@test.com',
                 subject:    'Test suit subject',
                 message:    'Test content'
