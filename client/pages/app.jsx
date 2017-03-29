@@ -3,6 +3,7 @@
 import React from 'react';
 
 import ComposingForm from '../components/ComposingForm';
+import ActionForm    from '../components/ActionForm';
 import NavBar        from '../components/NavBar';
 
 class App extends React.Component {
@@ -30,9 +31,7 @@ class App extends React.Component {
                             <div className="col-lg-6">
                                 <div className="row">
                                     <div className="col-lg-12">
-                                        <div className="page-header">
-                                            <h1 >Assume we have an action</h1>
-                                        </div>
+                                        <ActionForm/>
                                     </div>
                                 </div>
 

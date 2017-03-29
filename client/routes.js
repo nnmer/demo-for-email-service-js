@@ -3,7 +3,6 @@ import {  Router,Route, Link, IndexRoute} from 'react-router';
 import createBrowserHistory from 'history/createBrowserHistory';
 
 import  App              from './pages/app';
-// import  HomePage         from './pages/home';
 const history = createBrowserHistory()
 
 var routes = (
