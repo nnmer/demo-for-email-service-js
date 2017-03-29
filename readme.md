@@ -14,5 +14,14 @@ Add a config.json file in rood directory with mailing credentials:
 }
 ```
 
+Testing
+-------
+
+Test with mocha and zombie
+To run tests do:
+```
+npm run test
+```
+
 
 email template is from https://github.com/leemunroe/responsive-html-email-template
